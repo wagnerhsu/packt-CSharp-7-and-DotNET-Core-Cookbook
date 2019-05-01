@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using CommonLib;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,14 +35,18 @@ namespace BasicWpf01
             Application.Current.Shutdown();
         }
 
-        private void StackPanel_Click(object sender, RoutedEventArgs e)
+        private async void StackPanel_Click(object sender, RoutedEventArgs e)
         {
             Button button = e.Source as Button;
             if (button == null) return;
 
-            if (button.Name == nameof(btnTest))
+            if (button.Name == nameof(btnRunLongTask))
             {
-                _logger.LogInformation("Test");   
+                btnRunLongTask.IsEnabled = false;
+                AsyncDemo asyncDemo = new AsyncDemo(_logger);
+                await asyncDemo.LongTask();
+                MessageBox.Show("LongTask done");
+                btnRunLongTask.IsEnabled = true;
             }
         }
     }
