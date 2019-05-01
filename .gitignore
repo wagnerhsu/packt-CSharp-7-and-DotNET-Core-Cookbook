@@ -1,47 +1,168 @@
-# Windows image file caches
+# Added by Wagner
+*.favdoc
+packages
+packages/
+HL7/HL7Analyst/HL7Lib/HL7Lib.xml
+#-------------------------------------------------------------------------------
+# VisualStudio
+
+#-- User-specific files
+*.suo
+*.user
+*.sln.docstates
+*.projdata
+#-- Build results
+[Dd]ebug/
+[Rr]elease/
+[Tt]emp/
+x64/
+x86/
+!Dgw/RB-3.0.1.4-Patch-latest/Plugins/WelchAllynAdapter/COMReference/x86
+!PluginCommon/PluginCommon.WelchAllynAdapter/COMReference/x64
+!PluginCommon/PluginCommon.WelchAllynAdapter/COMReference/x86
+#[Bb]in/
+[Oo]bj/
+*.pdb
+publish
+HL7/HL7Analyst/HL7Analyst/bin/
+*.orig
+
+#-- Visual C++ cache files
+.vs/
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+
+#-- Backup & report files from converting an old project file to a newer
+#   Visual Studio version. Backup files are not needed, because we have git ;-)
+_UpgradeReport_Files/
+Backup*/
+_ReSharper*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+
+#-- Others
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+#*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+.builds
+*.pidb
+
+
+
+#-------------------------------------------------------------------------------
+# Windows
+
+#-- image file cache
 Thumbs.db
-ehthumbs.db
 
-# Folder config file
+#-- Folder config file
 Desktop.ini
+folder-*.ico
 
-# Recycle Bin used on file shares
+#-- Recycle Bin used on file shares
 $RECYCLE.BIN/
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
 
-# Windows shortcuts
-*.lnk
+#-------------------------------------------------------------------------------
+# Mac
 
-# =========================
-# Operating System Files
-# =========================
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
 
-# OSX
-# =========================
+#-------------------------------------------------------------------------------
+# GNU GCC MinGW
 
-.DS_Store
-.AppleDouble
-.LSOverride
+#-- Generated during makefile build
+*.d
+*.o
+/PowerEditor/gcc/resources.res
+/PowerEditor/bin/NotepadPP.exe
 
-# Thumbnails
-._*
+#-- Generated manually to make Notepad++ execute properly on Linux using Wine
+/PowerEditor/bin/libgcc_s_sjlj-1.dll
+/PowerEditor/bin/libstdc++-6.dll
+/PowerEditor/bin/libwinpthread-1.dll
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+PowerEditor/src/MISC/md5/RCa06792
+*.db
+*.opendb
+
+/MHLicense/LicenseControl/temp/LicenseTool.exe
+
+/PluginCommon/PluginCommon.WelchAllynAdapter/Common/Interop.WAConnSDKATLLib.dll
+/PluginCommon/PluginCommon.WelchAllynAdapter/Common/WelchAllynDeviceService.dll
+/.qbcache/qb-scm.xml
+*.nupkg
+*.nupkg
+/BackendService/Dgw.DbMonitor/FodyWeavers.xml
+/BackendService/Dgw.ForwardMonitor/FodyWeavers.xml
+/BackendService/Dgw.RtDbMonitor/FodyWeavers.xml
+/BackendService/Dgw.WcfManager/FodyWeavers.xml
+/Plugins/CobasAdapter/FodyWeavers.xml
+/Plugins/ComAstmAdapter/FodyWeavers.xml
+/Plugins/COMENC90Adapter/FodyWeavers.xml
+/Plugins/Dash5000Adapter/FodyWeavers.xml
+/Plugins/DragerAdapter/FodyWeavers.xml
+/Plugins/DragerInfinityAdapter/FodyWeavers.xml
+/Plugins/GESolar8001Adapter/FodyWeavers.xml
+/Plugins/IHEAdapter/FodyWeavers.xml
+/Plugins/MaquetAdapter/FodyWeavers.xml
+/Plugins/MaquetFlowAdapter/FodyWeavers.xml
+/Plugins/MindrayCenterAdapter/FodyWeavers.xml
+/Plugins/MindrayPM9000Adapter/FodyWeavers.xml
+/Plugins/MindrayT1Adapter/FodyWeavers.xml
+/Plugins/NihonKohdenAdapter/FodyWeavers.xml
+/Plugins/NihonKohdenBsm2300Adapter/FodyWeavers.xml
+/Plugins/NovaAdapter/FodyWeavers.xml
+/Plugins/NuoChengCenterAdapter/FodyWeavers.xml
+/Plugins/OhmedaAestiva7900Adapter/FodyWeavers.xml
+/Plugins/OhmedaAvanceAisysAdapter/FodyWeavers.xml
+/Plugins/OhmedaS5Adapter/FodyWeavers.xml
+/Plugins/PB840Adapter/FodyWeavers.xml
+/Plugins/PhilipsCenterAdapter/FodyWeavers.xml
+/Plugins/PhilipsG30Adapter/FodyWeavers.xml
+/Plugins/PhilipsMp20Adapter/FodyWeavers.xml
+/Plugins/PiccoAdapter/FodyWeavers.xml
+/Plugins/ProxyAdapter/FodyWeavers.xml
+/Plugins/SpaceSL2700Adapter/FodyWeavers.xml
+/Plugins/TcpHl7Adapter/FodyWeavers.xml
+/Presentation/Dgw.Manager/FodyWeavers.xml
+/Plugins/COMENC90Adapter/FodyWeavers.xml
+/Plugins/COMENC90Adapter/FodyWeavers.xml
+/Plugins/IHEAdapter/FodyWeavers.xml
+/Plugins/NihonKohdenAdapter/FodyWeavers.xml
+/Plugins/NihonKohdenBsm2300Adapter/FodyWeavers.xml
+/Plugins/NuoChengCenterAdapter/FodyWeavers.xml
+/Plugins/PiccoAdapter/FodyWeavers.xml
+/Plugins/ProxyAdapter/FodyWeavers.xml
+/Presentation/Dgw.Manager/FodyWeavers.xml
+/Plugins/COMENC90Adapter/FodyWeavers.xml
+/Plugins/IHEAdapter/FodyWeavers.xml
+/Plugins/NihonKohdenAdapter/FodyWeavers.xml
+/Plugins/NihonKohdenBsm2300Adapter/FodyWeavers.xml
+/Plugins/NuoChengCenterAdapter/FodyWeavers.xml
+/Plugins/PiccoAdapter/FodyWeavers.xml
+/Plugins/ProxyAdapter/FodyWeavers.xml
+/Presentation/Dgw.Manager/FodyWeavers.xml
