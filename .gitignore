@@ -166,3 +166,6 @@ PowerEditor/src/MISC/md5/RCa06792
 /Plugins/PiccoAdapter/FodyWeavers.xml
 /Plugins/ProxyAdapter/FodyWeavers.xml
 /Presentation/Dgw.Manager/FodyWeavers.xml
+.vs/
+bin/
+obj/
